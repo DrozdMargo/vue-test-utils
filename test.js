@@ -17,7 +17,7 @@ describe('Counter', () => {
   })
 
   it('button should increment the count', () => {
-    expect(wrapper.vm.count).toBe(0)
+    expect(wrapper.vm.count).toBe(1)
     const button = wrapper.find('button')
     button.trigger('click')
     expect(wrapper.vm.count).toBe(1)
